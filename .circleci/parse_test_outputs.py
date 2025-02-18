@@ -1,4 +1,4 @@
-import re
+import re  # 正規表現を使うために re モジュールをインポート
 import argparse
 
 def parse_pytest_output(file_path):
